@@ -5,7 +5,7 @@ import random
 import time
 import copy
 
-path = os.getcwd() + "/input_emails/"
+path = os.getcwd() + "/emailgenerator/input_emails/"
 
 header = {
     'start': 'Message-ID: ',
@@ -24,7 +24,7 @@ body = ''
 email_txt = ''
 
 # .eml file save path
-email_path = os.getcwd() + "output_emails/"
+email_path = os.getcwd() + "/emailgenerator/output_emails/"
 
 dt = datetime.datetime.now(datetime.timezone.utc)
 dt -= datetime.timedelta(days=365)
